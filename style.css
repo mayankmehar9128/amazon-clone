@@ -215,6 +215,29 @@ span {
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(50,64,101,1) 35%, rgba(0,212,255,1) 100%);
 }
 
+.large-product-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    position: relative;
+    bottom: 53px;
+}
+
+.dog-poduct-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fashion-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.large-product-boxes p {
+    z-index: 2;
+    position: relative;
+    right: 487px;
+    bottom: 10px;
+}
+
 .amazon-footer {
     /* height: 995px; */
     background-color: #232F3E;
